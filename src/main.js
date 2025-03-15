@@ -49,7 +49,7 @@ fetch('./src/info.json')
         const productTR = document.createElement("tr");
         const prodData = `
             <td class="text-center">
-                    <img src="${product.preview}" class="size-12 rounded-sm" alt="${product.name}">
+                    <img src="${product.preview}" class="size-12 ml-2 rounded-sm" alt="${product.name}">
                   </td>
                   <td class="text-left text-sm text-indigo-500">${product.name}</td>
                   <td class="text-center text-sm">${product.price}</td>
