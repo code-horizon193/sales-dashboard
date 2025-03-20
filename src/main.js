@@ -17,7 +17,7 @@ menuBtn.addEventListener("click" ,()=>{
 const tbody = document.getElementById("tbody");
 const topSelling = document.getElementById("top-selling");
 const news = document.querySelector(".news");
-fetch('./src/info.json')
+fetch('src/info.json')
 .then(res => res.json())
 .then(data => {
     let dataArray = Object.values(data);
